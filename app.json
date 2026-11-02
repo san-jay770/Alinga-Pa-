@@ -7,11 +7,6 @@
     "icon": "./assets/icon.png",
     "scheme": "alingapa",
     "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "backgroundColor": "#070b14",
-      "resizeMode": "contain"
-    },
     "ios": {
       "supportsTablet": true
     },
@@ -33,7 +28,9 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font",
+      "expo-system-ui"
     ],
     "extra": {
       "router": {
